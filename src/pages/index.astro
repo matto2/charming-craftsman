@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { Image } from "astro:assets";
 import heroImage from "../assets/517-front_IMG_2778.jpeg";
+import Grid from "../components/Grid.astro";
 const title = "Charming King St. Craftsman";
 ---
 
@@ -9,6 +10,19 @@ const title = "Charming King St. Craftsman";
   <h1 class="text-3xl font-bold text-purple-500 pb-6">
     {title}
   </h1>
+  <p>Near Mission Hill Junior High School</p>
+  <h2 class="text-2xl font-bold text-red-500 pb-6">
+    Open House - May 11 (tentative)
+  </h2>
 
   <Image src={heroImage} alt="front of house" />
+  <p class="py-8">
+    This delightful Craftsman-style home is situated on the desirable westside
+    of Santa Cruz, California. It boasts a convenient location within walking
+    distance to bus stops, a health food store, restaurants, and downtown
+    shopping. Nestled in a peaceful neighborhood, this home is ideally
+    positioned midway between the entrance to UCSC and Cowell's Beach, offering
+    a serene and desirable living environment.
+  </p>
+  <Grid />
 </Base>
