@@ -73,82 +73,108 @@ import image70 from "../assets/IMG_2811.jpeg";
 import image71 from "../assets/IMG_2812.jpeg";
 import image72 from "../assets/IMG_2814.jpeg";
 import image73 from "../assets/UnitA-kitchenCounter.jpeg";
+
+// import Swiper JS
+import Swiper from "swiper";
+// import Swiper styles
+import "swiper/css";
+client: true;
 ---
 
-<div
-  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
->
-  <Image src={image1} alt="house image 1" />
-  <Image src={image2} alt="house image 2" />
-  <Image src={image3} alt="house image 3" />
-  <Image src={image4} alt="house image 4" />
-  <Image src={image5} alt="house image 5" />
-  <Image src={image6} alt="house image 6" />
-  <Image src={image7} alt="house image 7" />
-  <Image src={image8} alt="house image 8" />
-  <Image src={image9} alt="house image 9" />
-  <Image src={image10} alt="house image 10" />
-  <Image src={image11} alt="house image 11" />
-  <Image src={image12} alt="house image 12" />
-  <Image src={image13} alt="house image 13" />
-  <Image src={image14} alt="house image 14" />
-  <Image src={image15} alt="house image 15" />
-  <Image src={image16} alt="house image 16" />
-  <Image src={image17} alt="house image 17" />
-  <Image src={image18} alt="house image 18" />
-  <Image src={image19} alt="house image 19" />
-  <Image src={image20} alt="house image 20" />
-  <Image src={image21} alt="house image 21" />
-  <Image src={image22} alt="house image 22" />
-  <Image src={image23} alt="house image 23" />
-  <Image src={image24} alt="house image 24" />
-  <Image src={image25} alt="house image 25" />
-  <Image src={image26} alt="house image 26" />
-  <Image src={image27} alt="house image 27" />
-  <Image src={image28} alt="house image 28" />
-  <Image src={image29} alt="house image 29" />
-  <Image src={image30} alt="house image 30" />
-  <Image src={image31} alt="house image 31" />
-  <Image src={image32} alt="house image 32" />
-  <Image src={image33} alt="house image 33" />
-  <Image src={image34} alt="house image 34" />
-  <Image src={image35} alt="house image 35" />
-  <Image src={image36} alt="house image 36" />
-  <Image src={image37} alt="house image 37" />
-  <Image src={image38} alt="house image 38" />
-  <Image src={image39} alt="house image 39" />
-  <Image src={image40} alt="house image 40" />
-  <Image src={image41} alt="house image 41" />
-  <Image src={image42} alt="house image 42" />
-  <Image src={image43} alt="house image 43" />
-  <Image src={image44} alt="house image 44" />
-  <Image src={image45} alt="house image 45" />
-  <Image src={image46} alt="house image 46" />
-  <Image src={image47} alt="house image 47" />
-  <Image src={image48} alt="house image 48" />
-  <Image src={image49} alt="house image 49" />
-  <Image src={image50} alt="house image 50" />
-  <Image src={image51} alt="house image 51" />
-  <Image src={image52} alt="house image 52" />
-  <Image src={image53} alt="house image 53" />
-  <Image src={image54} alt="house image 54" />
-  <Image src={image55} alt="house image 55" />
-  <Image src={image56} alt="house image 56" />
-  <Image src={image57} alt="house image 57" />
-  <Image src={image58} alt="house image 58" />
-  <Image src={image59} alt="house image 59" />
-  <Image src={image60} alt="house image 60" />
-  <Image src={image61} alt="house image 61" />
-  <Image src={image62} alt="house image 62" />
-  <Image src={image63} alt="house image 63" />
-  <Image src={image64} alt="house image 64" />
-  <Image src={image65} alt="house image 65" />
-  <Image src={image66} alt="house image 66" />
-  <Image src={image67} alt="house image 67" />
-  <Image src={image68} alt="house image 68" />
-  <Image src={image69} alt="house image 69" />
-  <Image src={image70} alt="house image 70" />
-  <Image src={image71} alt="house image 71" />
-  <Image src={image72} alt="house image 72" />
-  <Image src={image73} alt="house image 73" />
+<div class="swiper" client:load>
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+  </div>
+
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+  >
+    <Image src={image1} alt="house image 1" />
+    <Image src={image2} alt="house image 2" />
+    <Image src={image3} alt="house image 3" />
+    <Image src={image4} alt="house image 4" />
+    <Image src={image5} alt="house image 5" />
+    <Image src={image6} alt="house image 6" />
+    <Image src={image7} alt="house image 7" />
+    <Image src={image8} alt="house image 8" />
+    <Image src={image9} alt="house image 9" />
+    <Image src={image10} alt="house image 10" />
+    <Image src={image11} alt="house image 11" />
+    <Image src={image12} alt="house image 12" />
+    <Image src={image13} alt="house image 13" />
+    <Image src={image14} alt="house image 14" />
+    <Image src={image15} alt="house image 15" />
+    <Image src={image16} alt="house image 16" />
+    <Image src={image17} alt="house image 17" />
+    <Image src={image18} alt="house image 18" />
+    <Image src={image19} alt="house image 19" />
+    <Image src={image20} alt="house image 20" />
+    <Image src={image21} alt="house image 21" />
+    <Image src={image22} alt="house image 22" />
+    <Image src={image23} alt="house image 23" />
+    <Image src={image24} alt="house image 24" />
+    <Image src={image25} alt="house image 25" />
+    <Image src={image26} alt="house image 26" />
+    <Image src={image27} alt="house image 27" />
+    <Image src={image28} alt="house image 28" />
+    <Image src={image29} alt="house image 29" />
+    <Image src={image30} alt="house image 30" />
+    <Image src={image31} alt="house image 31" />
+    <Image src={image32} alt="house image 32" />
+    <Image src={image33} alt="house image 33" />
+    <Image src={image34} alt="house image 34" />
+    <Image src={image35} alt="house image 35" />
+    <Image src={image36} alt="house image 36" />
+    <Image src={image37} alt="house image 37" />
+    <Image src={image38} alt="house image 38" />
+    <Image src={image39} alt="house image 39" />
+    <Image src={image40} alt="house image 40" />
+    <Image src={image41} alt="house image 41" />
+    <Image src={image42} alt="house image 42" />
+    <Image src={image43} alt="house image 43" />
+    <Image src={image44} alt="house image 44" />
+    <Image src={image45} alt="house image 45" />
+    <Image src={image46} alt="house image 46" />
+    <Image src={image47} alt="house image 47" />
+    <Image src={image48} alt="house image 48" />
+    <Image src={image49} alt="house image 49" />
+    <Image src={image50} alt="house image 50" />
+    <Image src={image51} alt="house image 51" />
+    <Image src={image52} alt="house image 52" />
+    <Image src={image53} alt="house image 53" />
+    <Image src={image54} alt="house image 54" />
+    <Image src={image55} alt="house image 55" />
+    <Image src={image56} alt="house image 56" />
+    <Image src={image57} alt="house image 57" />
+    <Image src={image58} alt="house image 58" />
+    <Image src={image59} alt="house image 59" />
+    <Image src={image60} alt="house image 60" />
+    <Image src={image61} alt="house image 61" />
+    <Image src={image62} alt="house image 62" />
+    <Image src={image63} alt="house image 63" />
+    <Image src={image64} alt="house image 64" />
+    <Image src={image65} alt="house image 65" />
+    <Image src={image66} alt="house image 66" />
+    <Image src={image67} alt="house image 67" />
+    <Image src={image68} alt="house image 68" />
+    <Image src={image69} alt="house image 69" />
+    <Image src={image70} alt="house image 70" />
+    <Image src={image71} alt="house image 71" />
+    <Image src={image72} alt="house image 72" />
+    <Image src={image73} alt="house image 73" />
+  </div>
 </div>
+
+<script type="module">
+  // Initialize Swiper when the document is ready
+  document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      loop: true,
+    });
+  });
+</script>
