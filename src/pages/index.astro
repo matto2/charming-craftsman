@@ -1,0 +1,14 @@
+---
+import Base from "../layouts/Base.astro";
+import { Image } from "astro:assets";
+import heroImage from "../assets/517-front_IMG_2778.jpeg";
+const title = "Charming King St. Craftsman";
+---
+
+<Base>
+  <h1 class="text-3xl font-bold text-purple-500 pb-6">
+    {title}
+  </h1>
+
+  <Image src={heroImage} alt="front of house" />
+</Base>
