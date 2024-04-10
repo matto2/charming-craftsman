@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import heroImage from "../assets/517-front_IMG_2778.jpeg";
 import Grid from "../components/Grid.astro";
 const title = "Charming King St. Craftsman";
+import Carousel from "../components/Carousel.jsx";
 ---
 
 <Base>
@@ -12,8 +13,12 @@ const title = "Charming King St. Craftsman";
   </h1>
   <p>Near Mission Hill Junior High School</p>
   <h2 class="text-2xl font-bold text-red-500 pb-6">
-    Open House - May 11 (tentative)
+    Open House - May 11 - Saturday @ 11am
   </h2>
+  <p>Unit is available starting July 1, 2024</p>Email Matthew at <a
+    href="mailto:mattosurf@gmail.com"
+    class="text-blue-700 underline">mattosurf@gmail.com</a
+  >
 
   <Image src={heroImage} alt="front of house" />
   <p class="py-8">
@@ -25,4 +30,6 @@ const title = "Charming King St. Craftsman";
     a serene and desirable living environment.
   </p>
   <Grid />
+
+  <Carousel client:load />
 </Base>
