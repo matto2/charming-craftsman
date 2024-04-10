@@ -16,7 +16,7 @@ import { Navigation } from 'swiper/modules';
 export default function Carousel() {
   return (
     
-    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper justify-center text-center" >
        <SwiperSlide><img src="IMG_2183.jpeg" alt="house image"></img></SwiperSlide>
 <SwiperSlide><img src="IMG_2505.jpeg" alt="house image"></img></SwiperSlide>
 <SwiperSlide><img src="IMG_2506.jpeg" alt="house image"></img></SwiperSlide>
