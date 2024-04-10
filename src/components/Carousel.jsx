@@ -91,10 +91,6 @@ export default function Carousel() {
 <SwiperSlide><img src="IMG_2814.jpeg" alt="house image"></img></SwiperSlide>
 <SwiperSlide><img src="UnitA-kitchenCounter.jpeg" alt="house image"></img></SwiperSlide>
 
-        {/* <div class="swiper-pagination"></div>
-<div class="swiper-button-prev"></div>
-<div class="swiper-button-next"></div> */}
-
       </Swiper>
 
     
