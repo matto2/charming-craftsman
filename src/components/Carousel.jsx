@@ -16,7 +16,7 @@ import { Navigation } from 'swiper/modules';
 export default function Carousel() {
   return (
     
-    <Swiper navigation={true} modules={[Navigation]} className="mySwiper bg-slate-800" >
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper bg-slate-200" >
 <SwiperSlide><img src="IMG_2183.jpeg" alt="house image" className="mx-auto"></img></SwiperSlide>
 <SwiperSlide><img src="IMG_2505.jpeg" alt="house image" className="mx-auto"></img></SwiperSlide>
 <SwiperSlide><img src="IMG_2506.jpeg" alt="house image" className="mx-auto"></img></SwiperSlide>
